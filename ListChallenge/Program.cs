@@ -11,7 +11,9 @@ namespace ListChallenge
         static void Main(string[] args)
         {
             // add all names again
-            List<string> names = new List<string> { "Ethan", "Will", "Ashton", "Ben", "Tom", "Henry", "Cormac", "Will", "Adam"};
+            List<string> names = new List<string> { "Ethan", "WillD", "Ashton", "Ben", "Tom", "Henry", "Cormac", "WillR", "Adam"};
+
+            List<int> score = new List<int> { 155, 391, 358, 212, 243, 344, 374, 508, 348};
 
             Console.WriteLine(names[3]);
         }
